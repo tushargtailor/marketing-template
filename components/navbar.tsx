@@ -12,7 +12,7 @@ export const Navbar = () => {
     { title: "Socials", href: "/socials" },
   ];
   return (
-    <div className=" border-b border-neutral-200 dark:border-neutral-800">
+    <div className="border-b border-neutral-200 dark:border-neutral-800">
       <Container className="py-4 flex items-center justify-between">
         <Logo />
         <div className="flex items-center gap-4">
