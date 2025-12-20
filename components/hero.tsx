@@ -10,7 +10,7 @@ import { LandingImages } from "./landing-images";
 
 export const Hero = () => {
   return (
-    <div className="pt-10 md:pt-20 lg:pt-32">
+    <section className="pt-10 md:pt-20 lg:pt-32">
       <Container>
         <Heading as="h1">
           Agents that do the work <br /> Approvals that keep you safe.
@@ -27,6 +27,6 @@ export const Hero = () => {
         </div>
         <LandingImages />
       </Container>
-    </div>
+    </section>
   );
 };
